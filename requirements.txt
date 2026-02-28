@@ -1,0 +1,13 @@
+﻿fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+camelot-py
+opencv-python-headless
+pytesseract
+Pillow
+pandas
+openpyxl
+tabulate
+openai
+python-dotenv

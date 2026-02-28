@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: taxmaster-extractor
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
